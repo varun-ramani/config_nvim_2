@@ -71,13 +71,45 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
-  ["completion-nvim"] = {
+  ["auto-pairs"] = {
     loaded = true,
-    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/completion-nvim"
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/auto-pairs"
+  },
+  ["dart-vim-plugin"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/dart-vim-plugin"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+  },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/nvim-compe"
+  },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/nvim-jdtls"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/varun/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -98,6 +130,14 @@ _G.packer_plugins = {
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/Users/varun/.local/share/nvim/site/pack/packer/start/tokyonight.nvim"
+  },
+  ["vim-sensible"] = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/vim-sensible"
+  },
+  vimpeccable = {
+    loaded = true,
+    path = "/Users/varun/.local/share/nvim/site/pack/packer/start/vimpeccable"
   }
 }
 

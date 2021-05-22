@@ -1,4 +1,6 @@
 require('settings')
 require('plugins')
+require('treesittersetup')
 require('lspsetup')
 require('ui')
+require('keybindings')
